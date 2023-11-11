@@ -1,0 +1,89 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    
+}
+h1{
+    color:green;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-row .col {
+    flex: 1;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 4px solid green;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: green;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background-color:green;
+}
+
+.CV-link {
+    display: block;
+    margin-top: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color:green;
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.CV-link:hover {
+    background-color: #ddd;
+}
+
+
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNlIZhGYbdfz-bS34G0a2-hhDTMPzdcL9b1w&usqp=CAU");
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    
+}
